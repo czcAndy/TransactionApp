@@ -1,0 +1,21 @@
+apply plugin: 'scala'
+apply plugin: 'eclipse'
+
+sourceSets.main.java.srcDirs = ['src']
+
+repositories{
+    mavenCentral()
+    mavenLocal()
+}
+
+dependencies{
+    compile 'org.slf4j:slf4j-api:1.7.5'
+    compile "org.scala-lang:scala-library:2.11.2"
+    testCompile "junit:junit:4.11"
+}
+
+task run(type: JavaExec, dependsOn: classes) {
+    main = 'main.scala.Main'
+    classpath sourceSets.main.runtimeClasspath
+    classpath configurations.runtime
+}

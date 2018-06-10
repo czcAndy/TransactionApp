@@ -1,0 +1,11 @@
+products:
+   D:\EclipseWorkspace\TransactionApp\src\main\scala\Main.scala -> D:\EclipseWorkspace\TransactionApp\build\classes\scala\main\main\scala\Main$.class
+   D:\EclipseWorkspace\TransactionApp\src\main\scala\Main.scala -> D:\EclipseWorkspace\TransactionApp\build\classes\scala\main\main\scala\Main.class
+binary dependencies:
+   D:\EclipseWorkspace\TransactionApp\src\main\scala\Main.scala -> C:\Program Files\Java\jdk1.8.0_172\jre\lib\rt.jar
+   D:\EclipseWorkspace\TransactionApp\src\main\scala\Main.scala -> C:\Users\Andrei\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.11.2\4718c022bd5bd84705ddacec18072c351832bc20\scala-library-2.11.2.jar
+source dependencies:
+external dependencies:
+class names:
+   D:\EclipseWorkspace\TransactionApp\src\main\scala\Main.scala -> main.scala.Main
+   D:\EclipseWorkspace\TransactionApp\src\main\scala\Main.scala -> main.scala.Main$
